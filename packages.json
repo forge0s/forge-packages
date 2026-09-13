@@ -1,0 +1,15 @@
+{
+  "repo_name": "forgeos-packages",
+  "maintainer": "projectrivet",
+  "updated": "2026-09-13",
+  "packages": [
+    {
+      "name": "fastfetch",
+      "version": "1.0.0",
+      "description": "System info splash tool for ForgeOS (Rivet ASCII art + OS/kernel/shell info)",
+      "url": "https://forge0s.github.io/forge-packages/packages/fastfetch.tar.gz",
+      "sha256": "4b1d15a7e808c7ecdba9901abadfe6963f05c6150bf886b47942e9b70c8e7724",
+      "type": "kernel-builtin"
+    }
+  ]
+}
