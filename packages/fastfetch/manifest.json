@@ -1,0 +1,16 @@
+{
+  "name": "fastfetch",
+  "version": "1.0.0",
+  "description": "System info splash tool for ForgeOS, prints Rivet ASCII art + OS/kernel/shell info",
+  "author": "projectrivet",
+  "type": "kernel-builtin",
+  "files": [
+    "src/fastfetch.c",
+    "src/fastfetch.h",
+    "src/vga.h",
+    "src/kstring.h",
+    "bin/fastfetch.o"
+  ],
+  "install_note": "This package integrates as a shell builtin (command: 'fastfetch') until ForgeOS has a userspace/ELF loader. To install: copy src/fastfetch.c and src/fastfetch.h into kernel/, add #include \"fastfetch.h\" and the fastfetch_run() call to kernel.c's command dispatcher, add fastfetch.c to build.sh, rebuild."
+}
+
